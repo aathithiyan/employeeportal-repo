@@ -1,29 +1,5 @@
-2020-09-30 12:41:36.857  INFO 3092 --- [restartedMain] com.employee.EmployeePortalApplication   : Starting EmployeePortalApplication on VDELT101 with PID 3092 (E:\employee-portal\target\classes started by aathithiyan.k in E:\employee-portal)
-2020-09-30 12:41:36.862  INFO 3092 --- [restartedMain] com.employee.EmployeePortalApplication   : No active profile set, falling back to default profiles: default
-2020-09-30 12:41:36.924  INFO 3092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-30 12:41:36.925  INFO 3092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-30 12:41:37.728  INFO 3092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-09-30 12:41:37.735  INFO 3092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 12:41:37.736  INFO 3092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-30 12:41:37.792  INFO 3092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 12:41:37.792  INFO 3092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 838 ms
-2020-09-30 12:41:38.093  INFO 3092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:41:38.240  INFO 3092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-09-30 12:41:38.357  INFO 3092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-09-30 12:41:38.365  INFO 3092 --- [restartedMain] com.employee.EmployeePortalApplication   : Started EmployeePortalApplication in 1.846 seconds (JVM running for 2.943)
-2020-09-30 12:43:01.591  INFO 3092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-30 12:43:01.592  INFO 3092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-30 12:43:01.601  INFO 3092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2020-09-30 12:43:01.659  INFO 3092 --- [http-nio-8080-exec-1] c.e.controller.EmployeeController        : employeeidemployee=123
-2020-09-30 12:43:05.196  INFO 3092 --- [http-nio-8080-exec-3] c.e.controller.EmployeeController        : employeeidemployee=123
-2020-09-30 12:43:07.080  INFO 3092 --- [http-nio-8080-exec-4] c.e.controller.EmployeeController        : employeeidemployee=123
-2020-09-30 12:43:08.958  INFO 3092 --- [http-nio-8080-exec-5] c.e.controller.EmployeeController        : employeeidemployee=123
-2020-09-30 12:43:10.788  INFO 3092 --- [http-nio-8080-exec-6] c.e.controller.EmployeeController        : employeeidemployee=123
-2020-09-30 12:43:17.252  INFO 3092 --- [http-nio-8080-exec-7] c.e.controller.EmployeeController        : employee {"employeeId":123, "employeeName":"aathi", "employeeAddress":"banglore"}
-2020-09-30 12:43:19.772  INFO 3092 --- [http-nio-8080-exec-8] c.e.controller.EmployeeController        : employee {"employeeId":123, "employeeName":"aathi", "employeeAddress":"banglore"}
-2020-09-30 12:43:22.567  INFO 3092 --- [http-nio-8080-exec-9] c.e.controller.EmployeeController        : employee {"employeeId":123, "employeeName":"aathi", "employeeAddress":"banglore"}
-2020-09-30 13:14:49.063  INFO 3092 --- [http-nio-8080-exec-2] c.e.controller.EmployeeController        : employeeidemployee=123
-2020-09-30 13:14:58.571  INFO 3092 --- [http-nio-8080-exec-3] c.e.controller.EmployeeController        : employee {"employeeId":123, "employeeName":"aathi", "employeeAddress":"banglore"}
-2020-09-30 13:17:50.144  INFO 3092 --- [http-nio-8080-exec-6] c.e.controller.EmployeeController        : employee {"employeeId":123, "employeeName":"aathi", "employeeAddress":"banglore"}
-2020-09-30 13:18:01.036  INFO 3092 --- [http-nio-8080-exec-7] c.e.controller.EmployeeController        : employee {"employeeId":123, "employeeName":"aathi", "employeeAddress":"banglore"}
-2020-09-30 13:18:03.816  INFO 3092 --- [http-nio-8080-exec-8] c.e.controller.EmployeeController        : employee {"employeeId":123, "employeeName":"aathi", "employeeAddress":"banglore"}
+2020-10-06 13:23:32.020  INFO 58540 --- [main] c.e.demo.EmployeePortalApplicationTests  : Starting EmployeePortalApplicationTests on VDELT101 with PID 58540 (started by aathithiyan.k in E:\employee-portal)
+2020-10-06 13:23:32.027  INFO 58540 --- [main] c.e.demo.EmployeePortalApplicationTests  : No active profile set, falling back to default profiles: default
+2020-10-06 13:23:33.584  INFO 58540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 13:23:33.983  INFO 58540 --- [main] c.e.demo.EmployeePortalApplicationTests  : Started EmployeePortalApplicationTests in 2.365 seconds (JVM running for 4.081)
+2020-10-06 13:23:34.401  INFO 58540 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
